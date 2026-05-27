@@ -1,0 +1,133 @@
+.result {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.result__card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 28px 20px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--baemin-yellow);
+}
+
+.result__icon {
+  font-size: 64px;
+  display: block;
+  line-height: 1;
+}
+
+.result__food-name {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 12px;
+}
+
+.result__badge {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  background: var(--baemin-yellow);
+  font-weight: 900;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.result__headline {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.result__copy {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  text-align: left;
+}
+
+.result__retry {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.result__retry-done {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.result__campaign {
+  margin-top: 32px;
+}
+
+.result__divider {
+  height: 4px;
+  background: linear-gradient(90deg, var(--baemin-yellow), var(--campaign-teal));
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.result__bridge {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.result__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+}
+
+.result__stat-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  background: #fff;
+  padding: 20px;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--campaign-teal);
+  box-shadow: var(--shadow);
+}
+
+.result__stat-card h4 {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.result__stat-num {
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 8px;
+  color: var(--text-primary);
+}
+
+.result__stat-desc {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.result__story {
+  margin-top: 24px;
+  padding: 20px;
+  background: rgba(14, 238, 211, 0.12);
+  border-radius: var(--radius);
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: italic;
+  color: var(--text-primary);
+}
+
+.result__guestbook-cta {
+  margin-top: 28px;
+}

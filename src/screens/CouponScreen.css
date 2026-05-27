@@ -1,0 +1,73 @@
+.coupon {
+  padding-top: 32px;
+  text-align: center;
+}
+
+.coupon__header h1 {
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 12px;
+}
+
+.coupon__emoji {
+  font-size: 48px;
+}
+
+.coupon__card {
+  margin-top: 28px;
+  padding: 28px 20px;
+  background: linear-gradient(145deg, var(--baemin-yellow) 0%, #ffe566 100%);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.coupon__label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.coupon__code {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 12px 0 20px;
+  word-break: break-all;
+}
+
+.coupon__copy {
+  max-width: 160px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.coupon__terms,
+.coupon__valid {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.coupon__order {
+  margin-top: 28px;
+}
+
+.coupon__share {
+  margin-top: 32px;
+}
+
+.coupon__share > p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.coupon__footer {
+  margin-top: 32px;
+  padding: 16px;
+  background: rgba(14, 238, 211, 0.15);
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-primary);
+}

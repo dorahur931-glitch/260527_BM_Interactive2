@@ -1,0 +1,37 @@
+.splash {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(180deg, var(--baemin-yellow) 0%, var(--bg-ivory) 55%);
+  min-height: 100dvh;
+}
+
+.splash__logo {
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  margin-bottom: 48px;
+  animation: fadeIn 0.4s ease;
+}
+
+.splash__dol {
+  animation: slideUp 0.5s ease-out;
+}
+
+.splash__table-anim {
+  font-size: 72px;
+  margin-bottom: 16px;
+}
+
+.splash__title {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+
+.splash__subtitle {
+  margin-top: 12px;
+  font-size: 16px;
+  color: var(--text-secondary);
+  animation: fadeIn 0.6s ease 0.2s both;
+}

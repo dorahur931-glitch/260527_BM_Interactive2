@@ -1,0 +1,77 @@
+.dol-table {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 340px;
+  margin: 0 auto;
+}
+
+.dol-table__stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: slideUp 0.5s ease-out;
+}
+
+.dol-table__cloth {
+  position: absolute;
+  inset: 8% 5% 15%;
+  background: linear-gradient(180deg, #e8f4f8 0%, #d4ebe8 100%);
+  border-radius: 50% 50% 45% 45%;
+  border: 3px solid #b8ddd8;
+}
+
+.dol-table__table {
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 72%;
+  height: 28%;
+  background: linear-gradient(180deg, #c4956a 0%, #8b5e3c 100%);
+  border-radius: 8px 8px 4px 4px;
+  box-shadow: 0 8px 0 #6b4423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dol-table__character {
+  font-size: 36px;
+  position: absolute;
+  top: -48px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.dol-table__food {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  border: 3px solid var(--baemin-yellow);
+  animation: float 2s ease-in-out infinite;
+  z-index: 2;
+  transition: transform 0.2s;
+}
+
+.dol-table__food:active:not(:disabled) {
+  transform: scale(1.1);
+}
+
+.dol-table__food--pop {
+  animation: scalePop 0.3s ease forwards;
+  z-index: 10;
+}
+
+.dol-table__food-icon {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.dol-table__food:disabled {
+  cursor: default;
+}

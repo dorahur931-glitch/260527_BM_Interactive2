@@ -5,7 +5,6 @@ import { FOODS, CAMPAIGN_STATS, CAMPAIGN_STORY } from '../data/foods';
 import { ShareButtons } from '../components/ShareButtons';
 import { useEventStatus } from '../hooks/useEventStatus';
 import { useFadeInOnScroll } from '../hooks/useFadeInOnScroll';
-import type { FoodId } from '../types';
 import './ResultScreen.css';
 
 export function ResultScreen() {
